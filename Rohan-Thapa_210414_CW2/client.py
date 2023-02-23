@@ -191,7 +191,7 @@ def amount_withdraw():
         else:
             messagebox.showerror("Error", "The withdraw amount is more than available balance!")
     else:
-        messagebox.showerror("Error", "The amount given for the deposit must be a numeric value.")
+        messagebox.showerror("Error", "The amount given for the withdraw must be a numeric value.")
 
 def amount_transfer():
     account = holder_account.get()
